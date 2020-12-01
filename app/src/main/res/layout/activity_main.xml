@@ -4,25 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/tertiary_text_light"
+    android:background="@android:color/white"
     tools:context=".MainActivity">
 
 
     <TextView
         android:id="@+id/game_title"
         style="@style/TextAppearance.AppCompat.Title"
-        android:layout_width="284dp"
-        android:layout_height="80dp"
+        android:layout_width="227dp"
+        android:layout_height="56dp"
         android:text="Othello Game"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.637"
+        app:layout_constraintHorizontal_bias="0.625"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.092" />
+        app:layout_constraintVertical_bias="0.102" />
 
     <Button
         android:id="@+id/startBtn"
@@ -30,12 +30,11 @@
         android:layout_width="218dp"
         android:layout_height="103dp"
         android:layout_marginStart="112dp"
-        android:layout_marginTop="136dp"
+        android:layout_marginTop="104dp"
         android:layout_marginEnd="112dp"
         android:text="Start the Game"
         android:textColor="@android:color/holo_red_dark"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/game_title" />
 
